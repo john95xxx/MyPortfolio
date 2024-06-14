@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!--Devcon -->
+     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">John</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#cert" class="nav__link">Certificate</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">John</span><br> Website Developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/john-michael-dacoco-16b0b0233" class="home__social-icon"><i class='devicon-linkedin-plain colored'></i></a>
+                    <a href="https://github.com/john95xx" class="home__social-icon"><i class='devicon-github-original colored' ></i></a>
+                    <a href="https://www.facebook.com/oppaiisuki?mibextid=ZbWKwL" class="home__social-icon"><i class='devicon-facebook-plain colored' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="40" y="10" href="assets/img/john.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/john1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm John</h2>
+                        <p class="about__text">I'm a third-year student of Mariano Marcos State University who is passionate about developing my programming, web development, database management, and netcerting skills. I'm also committed to keeping up with the most recent advancements in the industry as a quick learner. With practical experience and ongoing development, my goal is to make a meaningful contribution to the rapidly changing field of technology.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='devicon-mysql-original colored skills__icon' ></i>
+                                <span class="skills__name">Database</span>
+                            </div>
+                            <div class="skills__bar skills__db">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='devicon-cplusplus-plain colored skills__icon' ></i>
+                                <span class="skills__name">Programming</span>
+                            </div>
+                            <div class="skills__bar skills__cpp">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='devicon-networkx-plain colored skills__icon' ></i>
+                                <span class="skills__name">Networking</span>
+                            </div>
+                            <div class="skills__bar skills__net">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+
+            <!--===== Certificate =====-->
+            <section class="cert section" id="cert">
+                <h2 class="section-title">Certificates</h2>
+
+                <div class="cert__container bd-grid">
+                    <a href="" class="cert__img">
+                        <img src="assets/img/cert1.jpg" alt="">
+                    </a>
+                    <a href="" class="cert__img">
+                        <img src="assets/img/cert2.jpg" alt="">
+                    </a>
+                    <a href="" class="cert__img">
+                        <img src="assets/img/cert3.jpg" alt="">
+                    </a>
+                    <a href="" class="cert__img">
+                        <img src="assets/img/cert4.jpg" alt="">
+                    </a>
+                    <a href="" class="cert__img">
+                        <img src="assets/img/cert5.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="send_mail.php" class="contact__form" id="emailform" method="post">
+                        <input type="text" placeholder="Name" id="name" name="name" class="contact__input">
+                        <input type="email" placeholder="Email" id="email" name="email" class="contact__input">
+                        <textarea name="message" id="message" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" name="send" id="send" class="contact__button button">
+                    </form>
+                   
+                    <div id="emailSentMsg" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999;">
+    </div>
+    </section>
+</main> 
+<script>
+        $(document).ready(function(){
+            $('#emailform').submit(function(e){
+                e.preventDefault();
+                
+                var formData = $(this).serialize();
+                
+                $.ajax({
+                    type: 'POST',
+                    url: 'send_mail.php',
+                    data: formData,
+                    dataType: 'json',
+                    success: function(response){
+                        swal({
+                            title: "Success!",
+                            text: "Email sent successfully.",
+                            icon: "success",
+                            timer: 2000, // Set timer for 2 seconds
+                            buttons: false // Disable the "Close" button
+                        });
+                    },
+                    error: function(xhr, status, error){
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+        });
+    </script>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
